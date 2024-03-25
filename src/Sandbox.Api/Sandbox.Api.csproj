@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>cce265a5-6f03-445c-89fc-474013667890</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+
+    <PackageId>Sandbox.Api</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>davist-ir</Authors>
+    <Company>davist-ir</Company>
+    <Copyright>All rights reserved davist-ir</Copyright>
+    <Product>Sandbox.Api</Product>
+    <RepositoryUrl>https://github.com/davist-ir/Sandbox</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <AssemblyName>Sandbox.Api</AssemblyName>
+    <RootNamespace>Sandbox.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
+  </ItemGroup>
+
+</Project>

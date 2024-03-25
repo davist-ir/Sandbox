@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>Sandbox.Api.Testcontainers</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>davist-ir</Authors>
+    <Company>davist-ir</Company>
+    <Copyright>All rights reserved davist-ir</Copyright>
+    <Product>AccountChek.Service.Aggregation.Api.Testcontainers</Product>
+    <RepositoryUrl>https://github.com/davist-ir/Sandbox</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <AssemblyName>Sandbox.Api.Testcontainers</AssemblyName>
+    <RootNamespace>Sandbox.Api.Testcontainers</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Testcontainers" Version="3.7.0" />
+  </ItemGroup>
+
+</Project>
