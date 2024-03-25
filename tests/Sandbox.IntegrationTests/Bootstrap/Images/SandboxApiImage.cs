@@ -39,7 +39,7 @@ internal class SandboxApiImage
             await new ImageFromDockerfileBuilder()
                 .WithName(this)
                 .WithDeleteIfExists(false)
-                .WithDockerfile("./src/Sandbox.Api/Dockerfile")
+                .WithDockerfile("src/Sandbox.Api/Dockerfile")
                 .WithDockerfileDirectory(CommonDirectoryPath.GetSolutionDirectory(), string.Empty)
                 .WithBuildArgument("RESOURCE_REAPER_SESSION_ID", ResourceReaper.DefaultSessionId.ToString("D"))
                 .Build()
